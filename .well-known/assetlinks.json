@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "cc.barood.invoicepro",
+      "sha256_cert_fingerprints": [
+        "A8:B5:C4:A7:81:37:EC:42:0B:3D:0F:16:62:D3:E8:AA:6A:74:31:27:CE:75:4F:C0:FE:B8:AD:CA:45:57:64:90",
+        "CD:1B:E3:11:89:00:6B:F5:CE:4F:2E:44:83:7B:22:C3:E6:80:FE:86:8E:58:07:93:DA:B0:71:F3:87:2C:43:BA"
+      ]
+    }
+  }
+]
