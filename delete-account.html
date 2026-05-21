@@ -44,33 +44,38 @@
 <h1>Delete Your InvoicePro Account</h1>
 <div class="effective">App: InvoicePro &middot; Developer: Barood Works</div>
 
-<p>This page explains how to delete your InvoicePro account and the data associated with it. You can request deletion from inside the app, or by contacting us directly.</p>
+<p>This page explains how to delete your InvoicePro account and the data associated with it.</p>
+<p>InvoicePro does not use a sign-up form. The first time you open the app, an <strong>anonymous account</strong> is created automatically so the app can run your free trial and subscription — we never collect your name, email address, or a password.</p>
 
 <h2>Option 1: Delete from inside the app (recommended)</h2>
 <ol>
   <li>Open <strong>InvoicePro</strong> on your device.</li>
-  <li>Sign in with the account you want to delete.</li>
   <li>Tap <strong>Settings</strong> in the bottom navigation.</li>
   <li>Scroll to the bottom and tap <strong>Delete Account</strong>.</li>
   <li>Confirm the deletion when prompted. This action is irreversible.</li>
 </ol>
+<p>Because the account is anonymous and tied to your device, deleting it from inside the app is the most reliable method.</p>
 
 <h2>Option 2: Request deletion by email</h2>
-<p>If you no longer have the app installed, or you cannot access your account, email us from the address you used to sign up:</p>
-<p><a href="mailto:info@barood.cc?subject=InvoicePro%20account%20deletion%20request">info@barood.cc</a></p>
-<p>Please include the email address associated with your InvoicePro account in the message body. We will process your request within 30 days and confirm deletion by reply email.</p>
+<p>If you no longer have the app installed, you can email us at
+<a href="mailto:info@barood.cc?subject=InvoicePro%20account%20deletion%20request">info@barood.cc</a>.</p>
+<p>Since accounts are anonymous, they are not linked to an email address. Uninstalling the app already ends your session, and the anonymous account holds no information that can identify you. We will answer any deletion question within 30 days.</p>
 
 <h2>What gets deleted</h2>
 <ul>
-  <li><strong>Authentication record</strong> — your email address, sign-in identifier (Google or Apple ID), and authentication tokens stored by our authentication provider (Supabase) are permanently deleted.</li>
-  <li><strong>Local app data</strong> — when you use the in-app deletion option, all locally stored data on your device is also wiped: business profile, clients, invoices, financial records, app settings, and templates.</li>
+  <li><strong>Anonymous account record</strong> — the anonymous account and authentication tokens stored by our backend provider (Supabase) are permanently deleted.</li>
+  <li><strong>Subscription &amp; trial state</strong> — the record of your InvoicePro Pro status, plan, and trial dates is deleted.</li>
+  <li><strong>Local app data</strong> — when you use the in-app deletion option, all data stored on your device is also wiped: business profile, clients, invoices, financial records, app settings, and templates.</li>
 </ul>
 
 <h2>What is retained, and for how long</h2>
 <p>InvoicePro is a local-first application. We do not collect or retain your invoices, clients, or financial data on our servers — there is nothing of that kind to retain.</p>
-<p>If you have enabled <strong>Google Drive</strong> or <strong>iCloud</strong> backup, the backup file is stored in your own cloud account and is <strong>not</strong> automatically removed when you delete your account. To delete the backup file, go to your Google Drive or iCloud Drive and delete the InvoicePro backup folder manually.</p>
+<ul>
+  <li><strong>Device identifier</strong> — the device identifier used to grant a single free trial is retained in our trial ledger to prevent the trial from being reset by reinstalling the app. It is not linked to your identity and holds no personal information.</li>
+  <li><strong>Cloud backup files</strong> — if you enabled <strong>Google Drive</strong> or <strong>iCloud</strong> backup, the backup file is stored in your own cloud account and is <strong>not</strong> automatically removed. To delete it, open your Google Drive or iCloud Drive and delete the InvoicePro backup file manually.</li>
+</ul>
 <div class="note">
-  <strong>Note:</strong> some authentication logs (sign-in events, IP address, timestamps) may be retained by our authentication provider for up to 90 days for security and fraud-prevention purposes, after which they are permanently deleted. No personal data is retained beyond this period.
+  <strong>Note:</strong> request metadata (IP address, timestamps) may be retained by our backend provider for up to 90 days for security and fraud-prevention purposes, after which it is permanently deleted. No personal data is retained beyond this period.
 </div>
 
 <h2>Delete some data without deleting your account</h2>
